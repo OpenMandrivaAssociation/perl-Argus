@@ -2,7 +2,7 @@
 
 Name:           perl-Argus
 Version:        2.00
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Client tools for argus network audit
 License:        GPL
@@ -10,6 +10,7 @@ Group:          Development/Perl
 Url:            http://qosient.com/argus/
 Source0:        ftp://ftp.qosient.com/dev/argus-2.0/argus-clients-%{argus_version}.tar.bz2
 BuildRequires:  perl-DateManip
+Provides:       perl(Argus::Support)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
@@ -29,7 +30,6 @@ export ARGUSHOME=%{_prefix}
 %{__rm} -rf %{buildroot}
 %{makeinstall_std}
 %{__rm} -f %{buildroot}%{_prefix}/perllocal.pod
-
 
 %clean
 %{__rm} -rf %{buildroot}
