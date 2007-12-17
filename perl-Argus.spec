@@ -12,7 +12,6 @@ Source0:        ftp://ftp.qosient.com/dev/argus-2.0/argus-clients-%{argus_versio
 BuildRequires:  perl-DateManip
 Provides:       perl(Argus::Support)
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 Clients to the argus probe which process and display information.
