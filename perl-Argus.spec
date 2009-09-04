@@ -2,7 +2,7 @@
 
 Name:           perl-Argus
 Version:        2.00
-Release:        %mkrel 4
+Release:        %mkrel 5
 Epoch:          0
 Summary:        Client tools for argus network audit
 License:        GPL
