@@ -1,14 +1,14 @@
 %define argus_version 2.0.6.fixes.1
 
 Name:		perl-Argus
-Version:	2.00
-Release:	7
+Version:	%perl_convert_version 3.0.7.14
+Release:	1
 Epoch:		0
 Summary:	Client tools for argus network audit
 License:	GPL
 Group:		Development/Perl
 Url:		http://qosient.com/argus/
-Source0:	ftp://ftp.qosient.com/dev/argus-2.0/argus-clients-%{argus_version}.tar.bz2
+Source0:	ftp://ftp.qosient.com:21/dev/argus-3.0/argus-clients-%{version}.tar.gz
 
 BuildRequires:	 perl-devel
 BuildRequires:	 perl-DateManip
@@ -77,4 +77,5 @@ rm -f %{buildroot}%{_prefix}/perllocal.pod
 
 * Sun Oct 22 2006 David Walluck <walluck@mandriva.org> 0:2.00-1mdv2007.1
 - release
+
 
