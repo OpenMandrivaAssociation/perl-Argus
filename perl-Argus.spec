@@ -2,7 +2,7 @@
 
 Name:		perl-Argus
 Version:	%perl_convert_version 3.0.7.14
-Release:	1
+Release:	2
 Epoch:		0
 Summary:	Client tools for argus network audit
 License:	GPL
